@@ -4,7 +4,7 @@ As regras do servidor estao disponíveis em nosso Discord e na prefeitura
 O atual prefeito e: LuanMike
 O atual Vice-Prefeito e: Klinsmann
 Para minerar proximo a cidade converse com a prefeitura sobre sua liscença de mineracao
-Importações e exportações são realizadas através do porto localizado na area industrial
+Importações e exportações sao realizadas através do porto localizado na area industrial
 Para comprar um terreno contate a prefeitura
 Para montar sua companhia contate a prefeitura
 Para tirar a sua escritura contate a prefeitura
