@@ -36,13 +36,13 @@ distances:
   globalMaxDistance: 0
 libraries:
   downloadLibs: true
-  sqliteLib: true
+  sqliteLib: false
   mysqlLib: true
 mysql:
-  enabled: false
+  enabled: true
   host: localhost
   port: 3306
-  database: minecraft
+  database: hm_3337
   table: homeTable
-  username: root
-  password: password
+  username: hm_3337
+  password: 8895aa53d6
