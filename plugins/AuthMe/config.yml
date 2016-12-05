@@ -25,7 +25,7 @@ GroupOptions:
     PermissionsOnJoin: []
 settings:
   sessions:
-    enabled: false
+    enabled: true
     timeout: 10
     sessionExpireOnIpChange: false
   restrictions:
@@ -131,15 +131,15 @@ Converter:
 Email:
   mailSMTP: smtp.gmail.com
   mailPort: 465
-  mailAccount: ''
-  mailPassword: ''
-  mailSenderName: ''
+  mailAccount: 'seuemail@gmail.com'
+  mailPassword: 'suasenha'
+  mailSenderName: 'nome do usuario'
   RecoveryPasswordLength: 8
-  mailSubject: Your new AuthMe Password
-  mailText: 'Dear <playername>, <br /><br /> This is your new AuthMe password for
-    the server <br /><br /> <servername> : <br /><br /> <generatedpass><br /><br />Do
-    not forget to change password after login! <br /> /changepassword <generatedpass>
-    newPassword'
+  mailSubject: Sua nova senha AuthMe
+  mailText: 'Caro <playername>, <br /><br /> Essa é a sua nova senha AuthMe 
+    para o <br /><br /> <servername> : <br /><br /> <generatedpass><br /><br />Não
+    se esqueça de mudar a senha após o login! <br /> /changepassword <generatedpass>
+    NovaSenha'
   maxRegPerEmail: 1
   recallPlayers: false
   delayRecall: 5
