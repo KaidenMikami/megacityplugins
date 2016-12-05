@@ -2,7 +2,7 @@ config-version: 18
 
 # Enable database support. Disabling database support switches
 # zPermissions to its flat-file-based permissions store.
-database-support: true
+database-support: false
 
 # Set to true if this server should be in read-only mode. Only valid when
 # actually using a database. If set to read-only, the database account
