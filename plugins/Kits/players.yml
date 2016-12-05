@@ -1,0 +1,13 @@
+players:
+- ==: com.dragonphase.kits.util.DelayedPlayer
+  player: 9aa5e4ea-a0f2-3dc1-a0ed-6e78217ed443
+  kits: {}
+- ==: com.dragonphase.kits.util.DelayedPlayer
+  player: 368c8dca-f14d-3a46-b952-fb3f681a5589
+  kits: {}
+- ==: com.dragonphase.kits.util.DelayedPlayer
+  player: 1e70447b-8e07-301c-b254-cf72ac1d94ee
+  kits: {}
+- ==: com.dragonphase.kits.util.DelayedPlayer
+  player: c38c3ce0-9009-39cd-8022-58e56397ea3a
+  kits: {}

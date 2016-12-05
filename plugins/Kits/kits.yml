@@ -1,0 +1,63 @@
+kits:
+- ==: com.dragonphase.kits.api.Kit
+  delay: 0
+  name: Iniciante
+  clear: true
+  overwrite: true
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_HELMET
+  - ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_BOOTS
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    type: WOOD_PICKAXE
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_AXE
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_SPADE
+  - ==: org.bukkit.inventory.ItemStack
+    type: BREAD
+    amount: 30
+  - null
+  - null
+  - null
+  - null
+  announce: true

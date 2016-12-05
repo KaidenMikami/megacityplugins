@@ -1,0 +1,10 @@
+# AutoBroadcaster by IMleader
+# Email: mattparksjr@gmail.com
+# 
+# this is shown before ever messgae
+prefix: '&9[MegaCityRPG]'
+timehour: 0
+timemin: 5
+timesec: 0
+Metrics:
+  Enabled: true
