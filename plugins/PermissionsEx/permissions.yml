@@ -4,4 +4,24 @@ groups:
       default: true
     permissions:
     - modifyworld.*
+  Moderador:
+    prefix: '[§2§lModerador]'
+    permissions:
+    - modifyworld.*
+  Fundador:
+    prefix: '[§4§lFundador]'
+    permissions:
+    - modifyworld.*
+  Civil:
+    prefix: '[§e§lCivil]'
+    permissions:
+    - modifyworld.*
+  Prefeito:
+    prefix: '[§bPrefeito]'
+    permissions:
+    - modifyworld.*
+  Vice-Prefeito:
+    prefix: '[§eVice-Prefeito]'
+    permissions:
+    - modifyworld.*
 schema-version: 1
