@@ -1,7 +1,5 @@
-Repositorio de todos os plugins do servidor MegaCity
+Repositorio de todos os plugins do servidor MegaCity RPG
 
-Se você achou isso aqui, sinta-se livre para usar os plugins já pre-preparados no seu servidor.
-O klinsmann é gay
+Todos os plugins são para 1.7.10
 
-
-Nós é chave
+Servidor Spigot, mas plugins Bukkit... vai entender ¯\_(ツ)_/¯
