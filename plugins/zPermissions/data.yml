@@ -2,7 +2,9 @@
 players: []
 groups:
 - name: Adminstrador
-  permissions: {}
+  permissions:
+    kits.*: true
+    permissions.*: true
   metadata:
     prefix: ADMIN
   priority: 0
@@ -10,15 +12,10 @@ groups:
   - uuid: 52f359cb0eb53813a5aeefdc67462511
     name: TrollMaster222
   tempmembers: []
-- name: ComiSuaMae
-  permissions: {}
-  metadata: {}
-  priority: 0
-  members: []
-  tempmembers: []
 - name: default
   permissions:
     kits.sign: true
+    ControlTPA.Use: true
   metadata: {}
   priority: 0
   members: []
