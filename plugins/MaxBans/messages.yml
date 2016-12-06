@@ -31,23 +31,23 @@ announcement:
     unwarn-success: "&a{banner}&f pardoned one of &a{name}&f's warnings."
     
 error:
-    no-player-given: "&cNo name given."
-    no-permission: "&cYou don't have permission to do that."
-    no-ip-known: "&cThat player has no IP history!"
-    no-ipban-found: "&cCould not find a ban for &a{ip}&f."
-    no-ban-found: "&cCould not find a ban for &a{name}&f."
-    no-mute-found: "&a{name}&c is not muted."
-    no-dupeip-duplicates: "&fNo duplicates!"
-    no-history: "&fNo history."
-    no-warnings: "&a{name}&c has no warnings to their name."
+    no-player-given: "&cNenhum nome dado."
+    no-permission: "&cVoce nao tem permissao para fazer isso."
+    no-ip-known: "&cEsse jogador não tem história IP!"
+    no-ipban-found: "&cNão foi possível encontrar uma proibição para &a{ip}&f."
+    no-ban-found: "&cNao foi possível encontrar uma proibição para &a{name}&f."
+    no-mute-found: "&a{name}&c Nao esta silenciado."
+    no-dupeip-duplicates: "&fSem duplicatas!"
+    no-history: "&fSem historia."
+    no-warnings: "&a{name}&c Nao tem avisos para seu nome."
     
-    unknown-player: "&cNo player found: &a{name}&f"
-    player-already-banned: "&cThat player is already banned."
-    ip-already-banned: "&cThat IP is already banned."
+    unknown-player: "&cNenhum jogador encontrado: &a{name}&f"
+    player-already-banned: "&cEsse jogador ja este banido."
+    ip-already-banned: "&cEsse IP ja esta banido."
     
     
-    tempban-shorter-than-last: "&cThat player has a tempban which will last longer than the one you supplied!"
-    tempipban-shorter-than-last: "&cThat IP has a tempban which will last longer than the one you supplied!"
-    tempmute-shorter-than-last: "&cThat player already has a mute which lasts longer than the one you tried to give."
+    tempban-shorter-than-last: "&cEsse player tem um tempban que vai durar mais do que o que voce forneceu!"
+    tempipban-shorter-than-last: "&cEsse IP tem um tempban que vai durar mais do que o que você forneceu!"
+    tempmute-shorter-than-last: "&cEste player tem um mute que dura mais doque o qual você tentou colocar"
 
     
