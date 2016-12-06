@@ -165,8 +165,8 @@ spawn-limiter:
 # -- 'broadcast-enabled' defines whether or not tps-meter should broadcast
 tps-meter:
   enabled: false
-  trigger-broadcast-message: '&6[ClearLag] &cThe server is overloaded, executing lag-perventing measures'
-  recover-broadcast-message: '&6[ClearLag] &aThe server is no longer overloaded!'
+  trigger-broadcast-message: '&6[MegaCityRPG] &cO servidor esta sobrecarregado, executando medidas de prevencao de LAG'
+  recover-broadcast-message: '&6[MegaCityRPG] &aO servidor nao esta mais sobrecarregado!'
   broadcast-enabled: false
   interval: 15
   tps-trigger: 14.0
@@ -222,7 +222,7 @@ item-merger:
 # -- 'warnings' list warnings to be given out at specified times
 auto-removal:
   enabled: true
-  broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
+  broadcast-message: '&6[MegaCityRPG] &aRemovido +RemoveAmount Entidades!'
   broadcast-removal: true
   autoremoval-interval: 460
   world-filter:
@@ -246,8 +246,8 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:400 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
-        - 'time:440 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:400 msg:&4[MegaCityRPG] &cAviso Os itens na terra serao removidos &7+remaining &csegundos!'
+        - 'time:440 msg:&4[MegaCityRPG] &cAviso Os itens na terra serao removidos &7+remaining &csegundos!'
 
 #What should be removed during /lagg clear
 command-remove:
@@ -277,7 +277,7 @@ limit:
   enabled: false
   max: 1000
   check-interval: 60
-  broadcast-message: '&6[ClearLag] &aLimit reached, removed +RemoveAmount Entities!'
+  broadcast-message: '&6[MegaCityRPG] &aLimite alcancado, removido +RemoveAmount Entidades!'
   world-filter:
   # - this_world <-This world will be ignored during removal!
   broadcast-removal: true
