@@ -1,2 +1,2 @@
-Welcome {PLAYER} on {SERVER} server
-This server use AuthMe protection!
+Bem-vindo {PLAYER} ao MegaCity RPG
+Esse servidor usa proteção AuthMe!

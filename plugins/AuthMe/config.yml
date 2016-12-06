@@ -38,7 +38,7 @@ settings:
     - /passpartu
     - /email
     - /captcha
-    maxRegPerIp: 1
+    maxRegPerIp: 3
     maxNicknameLength: 20
     ForceSingleSession: true
     ForceSpawnLocOnJoinEnabled: false
@@ -81,7 +81,7 @@ settings:
     enabled: true
     messageInterval: 5
     force: true
-    enableEmailRegistrationSystem: false
+    enableEmailRegistrationSystem: true
     doubleEmailCheck: false
     forceKickAfterRegister: false
     forceLoginAfterRegister: false
@@ -131,15 +131,14 @@ Converter:
 Email:
   mailSMTP: smtp.gmail.com
   mailPort: 465
-  mailAccount: 'seuemail@gmail.com'
-  mailPassword: 'suasenha'
-  mailSenderName: 'nome do usuario'
+  mailAccount: 'suportemegacityrpg@gmail.com'
+  mailPassword: 'megacity99887766'
+  mailSenderName: 'Suporte Megacity *AUTOMATICO*'
   RecoveryPasswordLength: 8
   mailSubject: Sua nova senha AuthMe
-  mailText: 'Caro <playername>, <br /><br /> Essa é a sua nova senha AuthMe 
-    para o <br /><br /> <servername> : <br /><br /> <generatedpass><br /><br />Não
-    se esqueça de mudar a senha após o login! <br /> /changepassword <generatedpass>
-    NovaSenha'
+  mailText: 'Caro <playername>, <br /><br /> Essa é a sua nova senha AuthMe para o
+    <br /><br /> <servername> : <br /><br /> <generatedpass><br /><br />Não se esqueça
+    de mudar a senha após o login! <br /> /changepassword <generatedpass> NovaSenha'
   maxRegPerEmail: 1
   recallPlayers: false
   delayRecall: 5

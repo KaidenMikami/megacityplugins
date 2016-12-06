@@ -1,0 +1,11 @@
+monitor-pistons: true
+prevent-nonsticky-retract: false
+set-worldguard-interval: 4000
+pop-disallowed: false
+deny-blocks:
+  sticky: []
+  all: []
+panic: false
+max-blocks: 14
+monitor-structure-growth: false
+monitor-from-to: false
