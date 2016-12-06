@@ -12,16 +12,75 @@ groups:
     prefix: '[§4§lFundador]'
     permissions:
     - modifyworld.*
+    options:
+      rank: '1'
+      prefix: '&5&l[DONO]'
+      suffix: ''
   Civil:
     prefix: '[§e§lCivil]'
     permissions:
     - modifyworld.*
+    options:
+      prefix: '&6&l[CIVIL]&r'
+      default: 'true'
   Prefeito:
     prefix: '[§bPrefeito]'
     permissions:
     - modifyworld.*
+    options:
+      prefix: '&r&b&l[PREFEITO]&b'
   Vice-Prefeito:
     prefix: '[§eVice-Prefeito]'
     permissions:
     - modifyworld.*
+  Vendedor:
+    options:
+      suffix: ', &b&lVendedor&r'
 schema-version: 1
+users:
+  368c8dca-f14d-3a46-b952-fb3f681a5589:
+    options:
+      name: Zynks98
+      prefix: ''
+    group:
+    - Civil
+  52f359cb-0eb5-3813-a5ae-efdc67462511:
+    options:
+      name: TrollMaster222
+    group:
+    - Civil
+  2bb17be0-50a3-3edd-9fe8-76887fb002ae:
+    options:
+      name: KaidenM
+      prefix: ''
+      suffix: ''
+    worlds:
+      Mega City RPG:
+        options:
+          prefix: ''
+    group:
+    - Fundador
+    permissions: []
+  9a3d73d0-a336-3125-ab66-903692c8f108:
+    options:
+      name: LuanMike
+    group:
+    - Prefeito
+  9aa5e4ea-a0f2-3dc1-a0ed-6e78217ed443:
+    options:
+      name: Klinsmann
+      prefix: ''
+    group:
+    - Vendedor
+    - Civil
+  c38c3ce0-9009-39cd-8022-58e56397ea3a:
+    options:
+      name: Twist
+    group:
+    - Vendedor
+    - Civil
+  78957e22-2fa8-32d1-aae2-3f855f1bb487:
+    options:
+      name: chaos_819
+    group:
+    - Civil

@@ -1,0 +1,13 @@
+holobanco:
+  location: Mega City RPG,101.30410065420438,66.20000004768372,-352.3522616180074
+  lines:
+  - '&e&lBANCO&r &b&lMEGACITY&r'
+  - Status:&r&4&lFECHADO
+holopref1:
+  location: Mega City RPG,63.074059842482605,65.2397232848691,-398.69999998807907
+  lines:
+  - '&b&lPREFEITURA'
+holopref2:
+  location: Mega City RPG,63.033553661798734,65.19355435332214,-410.30000001192093
+  lines:
+  - '&b&lPREFEITURA'
