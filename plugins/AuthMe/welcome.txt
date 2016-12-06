@@ -1,2 +1,1 @@
 Bem-vindo {PLAYER} ao MegaCity RPG
-Esse servidor usa proteção AuthMe!

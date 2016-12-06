@@ -1,17 +1,15 @@
 Seja bem-vindo ao servidor Mega City RPG
-O uso do programa de comunicacao "Discord" e obrigatorio, junte-se a nos em discord.gg/RNfmh2X
+O uso do programa de comunicacao "Discord" e obrigatorio, junte-se a nos em discord.gg/Xnj5AaD
 As regras do servidor estao disponiveis em nosso Discord e na prefeitura
 O atual prefeito e: LuanMike
-O atual Vice-Prefeito e: Klinsmann
+O atual Vice-Prefeito e: Klinsmann mais so exerce sua funcao quando o prefeito atual estiver offline
 Para minerar proximo a cidade converse com a prefeitura sobre sua licensa de mineracao
 Importacoes e exportacoes sao realizadas atraves do porto localizado na area industrial
 Para comprar um terreno contate a prefeitura
 Para montar sua companhia contate a prefeitura
 Para tirar a sua escritura contate a prefeitura
 O servidor Mega City RPG agradece a sua presenca
-Para comecar no servidor use /kit iniciante
-A moeda atual do servidor e a pepita de ouro (gold nugget)
-Qualquer duvida relacionada a regras deve ser checada com o predeito
+Qualquer duvida relacionada a regras deve ser checada com o prefeito
 Minerar perto da cidade sem licensa pode dar cadeia.
 Outras cidades podem se formar a qualquer momento, fique atento e junte-se a uma nova causa
 Civis devem sempre se encontrar nas salas de civil do Discord, SEMPRE!
