@@ -5,21 +5,39 @@ groups:
     permissions:
     - modifyworld.*
   Moderador:
-    prefix: '[§2§lModerador]'
-    permissions:
-    - modifyworld.*
-  Fundador:
-    prefix: '[§4§lFundador]'
     permissions:
     - modifyworld.*
     options:
       rank: '1'
-      prefix: '&5&l[DONO]'
+      prefix: '&9&l[MODERADOR]&r'
       suffix: ''
-  Civil:
-    prefix: '[§e§lCivil]'
+  Fundador:
     permissions:
     - modifyworld.*
+    options:
+      rank: '1'
+      prefix: '&5&l[DONO]&r'
+      suffix: ''
+  Civil:
+    permissions:
+    - modifyworld.*
+    - ChestShop.shop.create.*
+    - scoreboardstats.use
+    - essentials.eco.loan
+    - essentials.pay
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.recipe
+    - essentials.suicide
+    - essentials.sethome
+    - essentials.sethome.multiple
+    - essentials.tpa
+    - essentials.tpdeny
+    - essentials.tpallow
+    - essentials.tpahere
+    - essentials.warp.list
+    - essentials.waps.*
+    - lwc.protect
     options:
       prefix: '&6&l[CIVIL]&r'
       default: 'true'
@@ -28,11 +46,12 @@ groups:
     permissions:
     - modifyworld.*
     options:
-      prefix: '&r&b&l[PREFEITO]&b'
+      prefix: '&r&b&l[PREFEITO]&r'
   Vice-Prefeito:
-    prefix: '[§eVice-Prefeito]'
     permissions:
     - modifyworld.*
+    options:
+      prefix: '&r&'
   Vendedor:
     options:
       suffix: ', &b&lVendedor&r'
