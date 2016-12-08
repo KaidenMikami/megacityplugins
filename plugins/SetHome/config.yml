@@ -1,4 +1,4 @@
-prefix: '&7[&6MegaCity&7]'
+prefix: '&7[&6MegaCityRPG&7]'
 delay-to-teleport: 3
 no-permission-message: '&4Desculpe, mas voce nao tem permissao para usar este comando!'
 message-when-moved-while-teleport: '&4Voce se moveu durante o teletransporte!'
