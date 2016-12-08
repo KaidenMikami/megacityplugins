@@ -222,7 +222,7 @@ item-merger:
 # -- 'warnings' list warnings to be given out at specified times
 auto-removal:
   enabled: true
-  broadcast-message: '&6[MegaCityRPG] &aRemovido +RemoveAmount Entidades!'
+  broadcast-message: '&6[MegaCityRPG] &aRemovido +RemoveAmount Itens do Chao!'
   broadcast-removal: true
   autoremoval-interval: 460
   world-filter:
@@ -277,7 +277,7 @@ limit:
   enabled: false
   max: 1000
   check-interval: 60
-  broadcast-message: '&6[MegaCityRPG] &aLimite alcancado, removido +RemoveAmount Entidades!'
+  broadcast-message: '&6[MegaCityRPG] &aLimite alcancado, removido +RemoveAmount Itens do Chao!'
   world-filter:
   # - this_world <-This world will be ignored during removal!
   broadcast-removal: true
