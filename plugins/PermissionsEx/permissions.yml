@@ -4,13 +4,6 @@ groups:
       default: true
     permissions:
     - modifyworld.*
-  Moderador:
-    permissions:
-    - modifyworld.*
-    options:
-      rank: '1'
-      prefix: '&9&l[MODERADOR]&r'
-      suffix: ''
   Fundador:
     permissions:
     - modifyworld.*
@@ -21,7 +14,9 @@ groups:
   Civil:
     permissions:
     - modifyworld.*
-    - ChestShop.shop.create.*
+    - kits.list
+    - kits.spawn.inicinate
+    - plots.permpack.*
     - scoreboardstats.use
     - essentials.eco.loan
     - essentials.pay
@@ -31,6 +26,7 @@ groups:
     - essentials.suicide
     - essentials.sethome
     - essentials.sethome.multiple
+    - essentials.home
     - essentials.tpa
     - essentials.tpdeny
     - essentials.tpallow
@@ -38,11 +34,12 @@ groups:
     - essentials.warp.list
     - essentials.waps.*
     - lwc.protect
+    - maxbans.checkban.self
+    - maxbans.seebroadcast
     options:
       prefix: '&6&l[CIVIL]&r'
       default: 'true'
   Prefeito:
-    prefix: '[§bPrefeito]'
     permissions:
     - modifyworld.*
     options:
@@ -53,6 +50,8 @@ groups:
     options:
       prefix: '&r&'
   Vendedor:
+    permissions:
+      - ChestShop.shop.create.*
     options:
       suffix: ', &b&lVendedor&r'
 schema-version: 1

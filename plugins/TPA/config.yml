@@ -1,19 +1,19 @@
 CooldownInSeconds: 20
 #Request message
 Line1: "&6&lTpa > &aSolicitação de TPA de &6/sender/" 
-Line2: "&aWrite &b&l/tpaccept &aAceitar ou &c&l/tpdeny &aNegou"
+Line2: "&aDigite &b&l/tpaccept para &aaceitar ou &c&l/tpdeny para &anegar"
 #Request sent message
 RequestSent: "&6&lTpa > &aSolicitacao de TPA enviada para &6/target/"
 #Request accepted or denied
 RequestAcceptedTeleport: "&6/sender/ &aFoi teleportado para você!"
 RequestAccepted: "&6/target/ &aAceitou o teletransporte!"
 NoRequestToAccept: "&c&lTpa > &7Nenhum pedido para aceitar!"
-RequestDeniedTeleport: "&c&lTpa > &6/target/ &7Regeitou o teletransporte "
+RequestDeniedTeleport: "&c&lTpa > &6/target/ &7Rejeitou o teletransporte!"
 RequestDenied: "&c&lTpa > &7Você negou o teletransporte"
-NoRequestToDeny: "&c&lTpa > &7Nenhuma solicitação para regeitar!"
+NoRequestToDeny: "&c&lTpa > &7Nenhuma solicitação para rejeitar!"
 #Errors
 CooldownError: "&c&lTpa > &7Voce tem que esperar por um novo pedido TPA"
-PlayerInAnotherWorldError: "&c&lTpa > &7Voce nao pode se teletransportar para um player em outro mundo!"
+PlayerInAnotherWorldError: "&c&lTpa > &7Voce não pode se teletransportar para um player em outro mundo!"
 SpecifyPlayerError: "&c&lTpa > &7Especifique um player!"
-PlayerDoesNotExistError: "&c&lTpa > &7Esse player nao existe!"
-TpaFromConsoleError: "&cVoce nao pode usar o plug-in do console!"
+PlayerDoesNotExistError: "&c&lTpa > &7Esse player não existe!"
+TpaFromConsoleError: "&cVocê não pode usar o plugin direto do console!"

@@ -46,8 +46,8 @@ warnings:
     #Otherwise, the command will be executed by CONSOLE.
     #You might want to use -s in these commands (To stop them broadcasting messages to players)
     actions:
-        2: '/kick {name} Final Warning: \n{reason}'
-        3: '/tempban {name} 1 hour Reached Max Warnings:\n{reasons}'
+        2: '/kick {name} Ultimo Aviso \n{reason} -s'
+        3: '/tempban {name} 1 hour Excedeu o maximo de avisos:\n{reasons} -s'
     #After receiving this many warnings, they will be all deleted.
     #If 'actions' has an action for a number higher than this, then the action will never be
     #done... Because this resets it to 0
@@ -63,25 +63,25 @@ update:
   type: NO_DOWNLOAD
 
 #Accepts colorcodes. (v1.2)
-default-reason: "Misconduct"
+default-reason: "Má conduta"
 #Appeal-message accepts color codes, like &a and &4... Set it to "" to disable this. Accepts new line characters, just add \n where you want a new line.
-appeal-message: "No appeal website set :("
+appeal-message: "Para apelar o seu ban, fale com Kaiden#4521 no Discord."
 
 #The two char colors used that STAFF will see.
 #Usually, primary = text, and secondary = variables (Like ban reason)
 #0-9,a-f are valid. Also any Bukkit ChatColor is valid (Eg RED, AQUA, DARK_GRAY)
 color:
     primary: f
-    secondary: a
+    secondary: 9
     
     
 #This applies to kick, ban, and anything else.
 kick-colors:
     #0-9,a-f are valid. Also any Bukkit ChatColor is valid (Eg RED, AQUA, DARK_GRAY)
-    reason: f #"Misconduct"
+    reason: a #"Misconduct"
     regular: f #"By"
-    banner: f #"Netherfoam"
-    time: f #4 hours 59 minutes remaining.
+    banner: d #"Netherfoam"
+    time: b #4 hours 59 minutes remaining.
 
 
 #Some plugins will register their commands before we do (Eg other ban/kick plugins).
